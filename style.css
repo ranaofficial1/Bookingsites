@@ -1,0 +1,267 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    width: 100%;
+}
+.fullscreen{
+    height: 100%;
+    width: 105%;
+    margin-left: -2%;
+    user-select: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.web{
+    flex: 1 auto;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.top-navbar{
+    background-color: #163144;
+}
+.top-navbar ul{
+    display: flex;
+    list-style: none;
+    margin-left: 64%;
+    font-size: 11px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    
+}
+.top-navbar ul li:hover{
+    color: orange;
+}
+.logo-section{
+    display: flex;
+}
+.logo-section img{
+    width: 14%;
+    margin-left: 260px;
+}
+.welcome{
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 31%;
+
+}
+.balance{
+    font-size: 12px;
+    margin-left: -20%;
+    margin-top: 22px;
+
+}
+.balance span{
+    color: orange;
+}
+.button p{
+    font-size: 10px;
+    color: blue;
+    display: inline;
+    padding: 2px 7px;
+    border: 1px black solid;
+    border-block-color: blue;
+    border-left-color: blue;
+    border-right-color: blue;
+}
+.hero-section{
+    
+    width: 100%;
+    background-image: url(Indi.jpg);
+    background-size: cover;
+    height: 350px;
+    margin-bottom: 2%;
+}
+.domestic label{
+    color: white;
+    font-size: 13px;
+}
+.book{
+    margin-left: 19%;
+    padding-top: 5%;
+    color: white;
+}
+.domestic{
+    margin-left: 19%;
+}
+.domestic p{
+    padding: 1px 10px;
+    background-color: white;
+    border-radius: 5px 5px 5px 0px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.booking-details{
+    background-color: white;
+    height: 150px;
+    width: 64%;
+    margin-left: 19%;
+    margin-top: -16px;
+    border-radius: 0px 13px 13px 13px;
+}
+.label1{
+    padding-left: 2%;
+}
+.mans{
+    height: 70%;
+    width: 90% !important;
+}
+.search{
+    margin-top: 17px;
+}
+.search p{
+    background-color: orange;
+    display: inline-block;
+    padding: 3px 30px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.black{
+    background-color: #2c2727;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+.black p{
+    padding-top: 11px;
+    font-size: 14px;
+}
+.spans{
+    background-color: orange;
+    padding: 12px 48px 20px 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.our{
+    margin-top: 23px;
+    color: blue;
+}
+.our p{
+    display: inline-block;
+    margin-left: 21%;
+    padding-top: 7px;
+}
+.sector{
+    background-color: #163144;
+    height: 40px;
+    width: 63%;
+    margin-top: 2%;
+    margin-left: 20%;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+.sector p{
+    padding-top: 7px;
+    padding-left: 30px;
+}
+.data-lists{
+    width: 63%;
+    margin-left: 20%;
+}
+.cities-names{
+    border: 1px black solid;
+    width: 387px;
+    margin-top: 1%;
+    height: 34px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    font-size: 15px;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+.cities-names span{
+    margin-left: 4%;
+    padding-top: 5px;
+}
+.cities-names p{
+    margin-left: 18%;
+    display: inline-block;
+    background-color: orange;
+    padding: 1px 16px;
+    margin-top: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.sub{
+    background-color: #163144;
+    margin-top: 25px;
+    height: 46px;
+    color: white;
+}
+.news{
+
+    display: inline-block;
+    margin-top: 11px;
+    margin-right: 130px;
+    margin-left: 22%;
+}
+.sub input{
+    height: 26px;
+    margin-top: 11px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+}
+.sub span{
+    margin-top: 11px;
+    background-color: orange;
+    padding: 0px 11px;
+    margin-bottom: 9px;
+    margin-left: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.line{
+    background-color: orange;
+    height: 10%;
+    width: 100%;
+}
+.bottom{
+    background-color: #1c5a8f;
+    height: 200px;
+    color: white;
+    font-size: 13px;
+    /* margin-top: -16px; */
+
+}
+.about{
+    margin-top: -16px;
+}
+.services{
+    width: 72%;
+    margin-left: 14%;
+}
+
+.services ul{
+    list-style: none;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.about ul{
+    list-style: none;
+    margin-left: 22%;
+    font-weight: 400;
+}
+.logo-img{
+    margin-top: 11px;
+    margin-bottom: 10px;
+}
+.logo-img span{
+    margin-left: 30%;
+    margin-right: 2%;
+    letter-spacing: 1px;
+}
+.copyrigth{
+    background-color: #1c5a8f;
+    height: 31px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
